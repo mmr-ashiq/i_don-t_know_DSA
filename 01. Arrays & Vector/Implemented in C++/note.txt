@@ -1,0 +1,14 @@
+-------------Array--------------
+An array is a collection of elements of the same type placed in contigous memory locations.
+
+-------------Vector (Dynamic Array)--------------
+
+. Vectors are sequence containers representing arrays that can change in size.
+
+. just like arrays, vectors use contiguous storage locations for teir elements, which means that their elements can also be accessed directly in O(1) time.
+
+. But unlike arrays, their size can chage dynamically, with their storage being gandled automatically by the container.
+
+. Vectors can be used to create dynamic 1D & 2D Arrays.
+
+. Unlike arrays, vectors are passed by value to a function, it may can still pass it by reference if needed.
