@@ -1,9 +1,18 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int32_t main()
-{
+int32_t main(){
+
+	// declare a vector
+	// vector<int> v;
+
+	// declare and initialization of vector
 	vector<int> v = {10, 8, 3, 15, 20, 9, 30, 5};
+
+	// printing vector
+	for (int x: v){
+		cout<<x<<" ";
+	}
 
 	/*
 		an iterator gives you address of an element in a container.
